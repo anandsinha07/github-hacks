@@ -1,0 +1,13 @@
+User : user1
+Email: user1@gmail.com
+Steps:
+	ssh-add -l
+	ssh-add -D
+	ssh-add ~/.ssh/id_rsa_user1
+
+User : user2
+Email: user2@gmail.com
+Steps:
+	ssh-add -l
+	ssh-add -D
+	ssh-add ~/.ssh/id_rsa_user2
