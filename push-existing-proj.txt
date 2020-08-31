@@ -1,0 +1,8 @@
+git init
+git add .
+git commit -a
+git remote add origin remote_repository_URL
+git fetch
+git branch --set-upstream-to=origin/master master
+git pull origin master --allow-unrelated-histories
+git push
