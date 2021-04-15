@@ -1,0 +1,3 @@
+$ ssh-add -l 		//will list all the SSH keys attached to the ssh-agent.
+$ ssh-add -D            //removes all ssh entries from the ssh-agent
+$ ssh-add ~/.ssh/id_rsa      // Adds the relevant ssh key
